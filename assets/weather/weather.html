@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather by Crops</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Information for Crops</h1>
+    </header>
+    <main>
+        <section id="crop-selector">
+            <h2>Select a city</h2>
+            <select id="crop-select">
+                <option value="" disabled selected>Select a city</option>
+                <option value="corn">Delhi</option>
+                <option value="wheat">Lucknow</option>
+                <option value="rice">Bareilly</option>
+                <!-- Add more crops as needed -->
+            </select>
+            <button id="get-weather">Get Weather</button>
+        </section>
+        <section id="weather-info">
+            <h2>Weather Information</h2>
+            <div id="weather-data"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Agriculture Weather</p>
+    </footer>
+    <script src="weather.js"></script>
+</body>
+</html>

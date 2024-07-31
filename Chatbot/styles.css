@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://c1.wallpaperflare.com/preview/825/623/772/rice-nature-food-plant.jpg") ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#chat-container {
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#chatbox {
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    border-bottom: 1px solid #052702;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #04300da5;
+    color: white;
+}
+
+.message.bot {
+    background-color: #04300da5;;
+}
+
+#user-input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #052702;
+    color: #fff;
+}
+
+#send-button {
+    width: 20%;
+    border: none;
+    background-color: #043917ec;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#send-button:hover {
+    background-color: #043917ec;
+}
